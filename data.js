@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719496944015,
+  "lastUpdate": 1719497064865,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -204,6 +204,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Syscall Latency on Asterinas",
             "value": "250",
+            "unit": "ns",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tate.thl@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tate.thl@antgroup.com"
+          },
+          "id": "e8a3e00decc8551b035d1bd6faef40ae07de4b84",
+          "message": "Update the names of Github workflows for consistency",
+          "timestamp": "2024-06-27T13:56:55Z",
+          "url": "https://github.com/asterinas/asterinas/commit/e8a3e00decc8551b035d1bd6faef40ae07de4b84"
+        },
+        "date": 1719497062074,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average Syscall Latency on Linux",
+            "value": "272",
+            "unit": "ns",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Syscall Latency on Asterinas",
+            "value": "256",
             "unit": "ns",
             "extra": "aster_avg"
           }
