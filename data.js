@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719448285537,
+  "lastUpdate": 1719496944015,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -297,6 +297,40 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/asterinas/asterinas/commit/6b17cceaccc675728621d25dd73cb849c566c94e"
         },
         "date": 1719448154906,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average Execution Time per CPU on Linux",
+            "value": "3.83",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Execution Time per CPU on Asterinas",
+            "value": "3.82",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tate.thl@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tate.thl@antgroup.com"
+          },
+          "id": "e8a3e00decc8551b035d1bd6faef40ae07de4b84",
+          "message": "Update the names of Github workflows for consistency",
+          "timestamp": "2024-06-27T13:56:55Z",
+          "url": "https://github.com/asterinas/asterinas/commit/e8a3e00decc8551b035d1bd6faef40ae07de4b84"
+        },
+        "date": 1719496942193,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
