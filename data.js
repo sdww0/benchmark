@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719497064865,
+  "lastUpdate": 1719497300128,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -100,6 +100,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "428.14",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tate.thl@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tate.thl@antgroup.com"
+          },
+          "id": "e8a3e00decc8551b035d1bd6faef40ae07de4b84",
+          "message": "Update the names of Github workflows for consistency",
+          "timestamp": "2024-06-27T13:56:55Z",
+          "url": "https://github.com/asterinas/asterinas/commit/e8a3e00decc8551b035d1bd6faef40ae07de4b84"
+        },
+        "date": 1719497296974,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average Execution Time per Thread on Linux",
+            "value": "22.33",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Execution Time per Thread on Asterinas",
+            "value": "455.13",
             "unit": "ms",
             "extra": "aster_avg"
           }
