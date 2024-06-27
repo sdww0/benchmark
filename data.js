@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719448156715,
+  "lastUpdate": 1719448285537,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -170,6 +170,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Syscall Latency on Asterinas",
             "value": "248",
+            "unit": "ns",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "6b17cceaccc675728621d25dd73cb849c566c94e",
+          "message": "Replace the futex hash buckects with `Once` to fix the leak",
+          "timestamp": "2024-06-22T13:35:23Z",
+          "url": "https://github.com/asterinas/asterinas/commit/6b17cceaccc675728621d25dd73cb849c566c94e"
+        },
+        "date": 1719448282691,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average Syscall Latency on Linux",
+            "value": "287",
+            "unit": "ns",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Syscall Latency on Asterinas",
+            "value": "250",
             "unit": "ns",
             "extra": "aster_avg"
           }
