@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719534278099,
+  "lastUpdate": 1719534400448,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -306,6 +306,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Syscall Latency on Asterinas",
             "value": "256",
+            "unit": "ns",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "12db7ec55d3c66ea0dffc3e086674b31d8ffbbd5",
+          "message": "Add and refactor read-write syscalls",
+          "timestamp": "2024-06-27T14:35:07Z",
+          "url": "https://github.com/asterinas/asterinas/commit/12db7ec55d3c66ea0dffc3e086674b31d8ffbbd5"
+        },
+        "date": 1719534397540,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average Syscall Latency on Linux",
+            "value": "321",
+            "unit": "ns",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Syscall Latency on Asterinas",
+            "value": "255",
             "unit": "ns",
             "extra": "aster_avg"
           }
