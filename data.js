@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719497300128,
+  "lastUpdate": 1719534026266,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -134,6 +134,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "455.13",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "12db7ec55d3c66ea0dffc3e086674b31d8ffbbd5",
+          "message": "Add and refactor read-write syscalls",
+          "timestamp": "2024-06-27T14:35:07Z",
+          "url": "https://github.com/asterinas/asterinas/commit/12db7ec55d3c66ea0dffc3e086674b31d8ffbbd5"
+        },
+        "date": 1719534023400,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average Execution Time per Thread on Linux",
+            "value": "21.20",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Execution Time per Thread on Asterinas",
+            "value": "374.60",
             "unit": "ms",
             "extra": "aster_avg"
           }
