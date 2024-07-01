@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719799227844,
+  "lastUpdate": 1719799340089,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -340,6 +340,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Syscall Latency on Asterinas",
             "value": "255",
+            "unit": "ns",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ruihan Li",
+            "username": "lrh2000",
+            "email": "lrh2000@pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "9e4775d9e2c013899ce50dbc33250dbd5084a5a4",
+          "message": "Remove dead code from `UtimeExt`",
+          "timestamp": "2024-06-29T03:56:51Z",
+          "url": "https://github.com/asterinas/asterinas/commit/9e4775d9e2c013899ce50dbc33250dbd5084a5a4"
+        },
+        "date": 1719799337412,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average Syscall Latency on Linux",
+            "value": "277",
+            "unit": "ns",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Syscall Latency on Asterinas",
+            "value": "251",
             "unit": "ns",
             "extra": "aster_avg"
           }
