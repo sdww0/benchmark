@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719879527146,
+  "lastUpdate": 1719879786536,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -168,6 +168,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "374.60",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ruihan Li",
+            "username": "lrh2000",
+            "email": "lrh2000@pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "9e4775d9e2c013899ce50dbc33250dbd5084a5a4",
+          "message": "Remove dead code from `UtimeExt`",
+          "timestamp": "2024-06-29T03:56:51Z",
+          "url": "https://github.com/asterinas/asterinas/commit/9e4775d9e2c013899ce50dbc33250dbd5084a5a4"
+        },
+        "date": 1719879784777,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average Execution Time per Thread on Linux",
+            "value": "22.47",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Execution Time per Thread on Asterinas",
+            "value": "429.32",
             "unit": "ms",
             "extra": "aster_avg"
           }
