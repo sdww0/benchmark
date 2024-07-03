@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719966176318,
+  "lastUpdate": 1719966425922,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -202,6 +202,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "429.32",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "ece62cf806389bd6c44d76209b2804bbd8d64644",
+          "message": "Add missing TLB flushes for coherent DMA mappings",
+          "timestamp": "2024-06-27T08:45:09Z",
+          "url": "https://github.com/asterinas/asterinas/commit/ece62cf806389bd6c44d76209b2804bbd8d64644"
+        },
+        "date": 1719966424235,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average Execution Time per Thread on Linux",
+            "value": "21.15",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Execution Time per Thread on Asterinas",
+            "value": "434.14",
             "unit": "ms",
             "extra": "aster_avg"
           }
