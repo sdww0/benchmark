@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719966067740,
+  "lastUpdate": 1719966176318,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -436,6 +436,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Syscall Latency on Linux",
             "value": "272",
+            "unit": "ns",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Syscall Latency on Asterinas",
+            "value": "251",
+            "unit": "ns",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhang Junyang",
+            "username": "junyang-zh",
+            "email": "junyang@stu.pku.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "ece62cf806389bd6c44d76209b2804bbd8d64644",
+          "message": "Add missing TLB flushes for coherent DMA mappings",
+          "timestamp": "2024-06-27T08:45:09Z",
+          "url": "https://github.com/asterinas/asterinas/commit/ece62cf806389bd6c44d76209b2804bbd8d64644"
+        },
+        "date": 1719966173591,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average Syscall Latency on Linux",
+            "value": "274",
             "unit": "ns",
             "extra": "linux_avg"
           },
