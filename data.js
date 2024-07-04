@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720052318943,
+  "lastUpdate": 1720052561061,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -807,6 +807,40 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/asterinas/asterinas/commit/ece62cf806389bd6c44d76209b2804bbd8d64644"
         },
         "date": 1719966066101,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average Execution Time per CPU on Linux",
+            "value": "3.83",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Execution Time per CPU on Asterinas",
+            "value": "3.82",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhenchen Wang",
+            "username": "Plucky923",
+            "email": "m202372036@hust.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "12b355b701c03b0454571a1d426131cdb6d31d40",
+          "message": "Fix issue about pathname and redefine the Filetype.\n\nSigned-off-by: Zhenchen Wang <m202372036@hust.edu.cn>",
+          "timestamp": "2024-06-27T02:14:19Z",
+          "url": "https://github.com/asterinas/asterinas/commit/12b355b701c03b0454571a1d426131cdb6d31d40"
+        },
+        "date": 1720052558350,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
