@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719966425922,
+  "lastUpdate": 1720052318943,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -510,6 +510,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Syscall Latency on Asterinas",
             "value": "251",
+            "unit": "ns",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhenchen Wang",
+            "username": "Plucky923",
+            "email": "m202372036@hust.edu.cn"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "12b355b701c03b0454571a1d426131cdb6d31d40",
+          "message": "Fix issue about pathname and redefine the Filetype.\n\nSigned-off-by: Zhenchen Wang <m202372036@hust.edu.cn>",
+          "timestamp": "2024-06-27T02:14:19Z",
+          "url": "https://github.com/asterinas/asterinas/commit/12b355b701c03b0454571a1d426131cdb6d31d40"
+        },
+        "date": 1720052313253,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average Syscall Latency on Linux",
+            "value": "278",
+            "unit": "ns",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Syscall Latency on Asterinas",
+            "value": "259",
             "unit": "ns",
             "extra": "aster_avg"
           }
