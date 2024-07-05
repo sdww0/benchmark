@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720052797840,
+  "lastUpdate": 1720138844006,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -875,6 +875,40 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/asterinas/asterinas/commit/12b355b701c03b0454571a1d426131cdb6d31d40"
         },
         "date": 1720052558350,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average Execution Time per CPU on Linux",
+            "value": "3.83",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Execution Time per CPU on Asterinas",
+            "value": "3.82",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhe Tang",
+            "username": "Tangzh33",
+            "email": "tangzh6101@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "52ce2dd5d1c2f1c4ebb5dbe50175c99d2ed09f23",
+          "message": "Fix typos in docker commands within the docs.",
+          "timestamp": "2024-07-04T09:35:55Z",
+          "url": "https://github.com/asterinas/asterinas/commit/52ce2dd5d1c2f1c4ebb5dbe50175c99d2ed09f23"
+        },
+        "date": 1720138841306,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
