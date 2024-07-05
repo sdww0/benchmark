@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720138965858,
+  "lastUpdate": 1720139203739,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -270,6 +270,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Execution Time per Thread on Asterinas",
             "value": "478.77",
+            "unit": "ms",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhe Tang",
+            "username": "Tangzh33",
+            "email": "tangzh6101@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "52ce2dd5d1c2f1c4ebb5dbe50175c99d2ed09f23",
+          "message": "Fix typos in docker commands within the docs.",
+          "timestamp": "2024-07-04T09:35:55Z",
+          "url": "https://github.com/asterinas/asterinas/commit/52ce2dd5d1c2f1c4ebb5dbe50175c99d2ed09f23"
+        },
+        "date": 1720139202039,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average Execution Time per Thread on Linux",
+            "value": "21.40",
+            "unit": "ms",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Execution Time per Thread on Asterinas",
+            "value": "505.39",
             "unit": "ms",
             "extra": "aster_avg"
           }
