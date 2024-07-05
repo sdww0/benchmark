@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720138844006,
+  "lastUpdate": 1720138965858,
   "repoUrl": "https://github.com/asterinas/asterinas",
   "entries": {
     "sysbench-thread Benchmark": [
@@ -578,6 +578,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average Syscall Latency on Asterinas",
             "value": "259",
+            "unit": "ns",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Zhe Tang",
+            "username": "Tangzh33",
+            "email": "tangzh6101@gmail.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "52ce2dd5d1c2f1c4ebb5dbe50175c99d2ed09f23",
+          "message": "Fix typos in docker commands within the docs.",
+          "timestamp": "2024-07-04T09:35:55Z",
+          "url": "https://github.com/asterinas/asterinas/commit/52ce2dd5d1c2f1c4ebb5dbe50175c99d2ed09f23"
+        },
+        "date": 1720138963205,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average Syscall Latency on Linux",
+            "value": "272",
+            "unit": "ns",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Syscall Latency on Asterinas",
+            "value": "261",
             "unit": "ns",
             "extra": "aster_avg"
           }
