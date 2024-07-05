@@ -1,7 +1,217 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720139203739,
-  "repoUrl": "https://github.com/asterinas/asterinas",
+  "lastUpdate": 1720169660000,
+  "repoUrl": "https://github.com/sdww0/asterinas",
   "entries": {
+    "lmbench-fork Benchmark": [
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "id": "bf994e2173be6f6d81739098a766a379bb7eb2c5",
+          "message": " Remove home-brewed getpid benchmark",
+          "timestamp": "2024-07-04T16:59:18Z",
+          "url": "https://github.com/sdww0/asterinas/commit/bf994e2173be6f6d81739098a766a379bb7eb2c5"
+        },
+        "date": 1720169660000,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average Fork latency on Linux",
+            "unit": "ms",
+            "value": "64.2558",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Fork latency on Asterinas",
+            "unit": "ms",
+            "value": "293.1000",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "id": "bf994e2173be6f6d81739098a766a379bb7eb2c5",
+          "message": " Remove home-brewed getpid benchmark",
+          "timestamp": "2024-07-04T16:59:18Z",
+          "url": "https://github.com/sdww0/asterinas/commit/bf994e2173be6f6d81739098a766a379bb7eb2c5"
+        },
+        "date": 1720170165000,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average Fork latency on Linux",
+            "unit": "ms",
+            "value": "64.2558",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Fork latency on Asterinas",
+            "unit": "ms",
+            "value": "293.1000",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+    ],
+    "lmbench-getpid Benchmark": [
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "id": "bf994e2173be6f6d81739098a766a379bb7eb2c5",
+          "message": " Remove home-brewed getpid benchmark",
+          "timestamp": "2024-07-04T16:59:18Z",
+          "url": "https://github.com/sdww0/asterinas/commit/bf994e2173be6f6d81739098a766a379bb7eb2c5"
+        },
+        "date": 1720169660000,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average syscall latency on Linux",
+            "unit": "ms",
+            "value": "0.2539",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average syscall latency on Asterinas",
+            "unit": "ms",
+            "value": "0.1922",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "id": "bf994e2173be6f6d81739098a766a379bb7eb2c5",
+          "message": " Remove home-brewed getpid benchmark",
+          "timestamp": "2024-07-04T16:59:18Z",
+          "url": "https://github.com/sdww0/asterinas/commit/bf994e2173be6f6d81739098a766a379bb7eb2c5"
+        },
+        "date": 1720170165000,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average syscall latency on Linux",
+            "unit": "ms",
+            "value": "0.2539",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average syscall latency on Asterinas",
+            "unit": "ms",
+            "value": "0.1922",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+    ],
+    "lmbench-signal Benchmark": [
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "id": "bf994e2173be6f6d81739098a766a379bb7eb2c5",
+          "message": " Remove home-brewed getpid benchmark",
+          "timestamp": "2024-07-04T16:59:18Z",
+          "url": "https://github.com/sdww0/asterinas/commit/bf994e2173be6f6d81739098a766a379bb7eb2c5"
+        },
+        "date": 1720169660000,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average Signal handler overhead on Linux",
+            "unit": "ms",
+            "value": "1.0230",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Signal handler overhead on Asterinas",
+            "unit": "ms",
+            "value": "0.7367",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "committer": {
+            "name": "Yuke Peng",
+            "username": "sdww0",
+            "email": "pykfirst@gmail.com"
+          },
+          "id": "bf994e2173be6f6d81739098a766a379bb7eb2c5",
+          "message": " Remove home-brewed getpid benchmark",
+          "timestamp": "2024-07-04T16:59:18Z",
+          "url": "https://github.com/sdww0/asterinas/commit/bf994e2173be6f6d81739098a766a379bb7eb2c5"
+        },
+        "date": 1720170165000,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average Signal handler overhead on Linux",
+            "unit": "ms",
+            "value": "1.0230",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average Signal handler overhead on Asterinas",
+            "unit": "ms",
+            "value": "0.7367",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+    ],
     "sysbench-thread Benchmark": [
       {
         "commit": {
