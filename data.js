@@ -1,7 +1,707 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720169660000,
+  "lastUpdate": 1721286543000,
   "repoUrl": "https://github.com/sdww0/asterinas",
   "entries": {
+    "lmbench-ctx Benchmark": [
+      {
+        "commit": {
+          "author": {
+            "name": "Qingsong Chen",
+            "username": "cqs21",
+            "email": "changxian.cqs@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "fbf2afd799671f1ab0140d1c2d51de52214d0ee5",
+          "message": " Add ioctl subcommand FIONBIO/FIOASYNC",
+          "timestamp": "2024-07-15T09:28:22Z",
+          "url": "https://github.com/sdww0/asterinas/commit/fbf2afd799671f1ab0140d1c2d51de52214d0ee5"
+        },
+        "date": 1721286543000,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average context switch latency on Linux",
+            "unit": "ms",
+            "value": "1.82",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average context switch latency on Asterinas",
+            "unit": "ms",
+            "value": "1.95",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Qingsong Chen",
+            "username": "cqs21",
+            "email": "changxian.cqs@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "fbf2afd799671f1ab0140d1c2d51de52214d0ee5",
+          "message": " Add ioctl subcommand FIONBIO/FIOASYNC",
+          "timestamp": "2024-07-15T09:28:22Z",
+          "url": "https://github.com/sdww0/asterinas/commit/fbf2afd799671f1ab0140d1c2d51de52214d0ee5"
+        },
+        "date": 1721286543000,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average context switch latency on Linux",
+            "unit": "ms",
+            "value": "1.82",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average context switch latency on Asterinas",
+            "unit": "ms",
+            "value": "1.95",
+            "extra": "aster_avg"
+          }
+        ]
+      }
+    ],
+    "lmbench-exec Benchmark": [
+      {
+        "commit": {
+          "author": {
+            "name": "Qingsong Chen",
+            "username": "cqs21",
+            "email": "changxian.cqs@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "fbf2afd799671f1ab0140d1c2d51de52214d0ee5",
+          "message": " Add ioctl subcommand FIONBIO/FIOASYNC",
+          "timestamp": "2024-07-15T09:28:22Z",
+          "url": "https://github.com/sdww0/asterinas/commit/fbf2afd799671f1ab0140d1c2d51de52214d0ee5"
+        },
+        "date": 1721286543000,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average exec latency on Linux",
+            "unit": "ms",
+            "value": "73.6351",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average exec latency on Asterinas",
+            "unit": "ms",
+            "value": "312.7368",
+            "extra": "aster_avg"
+          }
+        ]        
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Qingsong Chen",
+            "username": "cqs21",
+            "email": "changxian.cqs@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "fbf2afd799671f1ab0140d1c2d51de52214d0ee5",
+          "message": " Add ioctl subcommand FIONBIO/FIOASYNC",
+          "timestamp": "2024-07-15T09:28:22Z",
+          "url": "https://github.com/sdww0/asterinas/commit/fbf2afd799671f1ab0140d1c2d51de52214d0ee5"
+        },
+        "date": 1721286543000,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average exec latency on Linux",
+            "unit": "ms",
+            "value": "73.6351",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average exec latency on Asterinas",
+            "unit": "ms",
+            "value": "312.7368",
+            "extra": "aster_avg"
+          }
+        ]
+      }
+    ],
+    "lmbench-fstat Benchmark": [
+      {
+        "commit": {
+          "author": {
+            "name": "Qingsong Chen",
+            "username": "cqs21",
+            "email": "changxian.cqs@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "fbf2afd799671f1ab0140d1c2d51de52214d0ee5",
+          "message": " Add ioctl subcommand FIONBIO/FIOASYNC",
+          "timestamp": "2024-07-15T09:28:22Z",
+          "url": "https://github.com/sdww0/asterinas/commit/fbf2afd799671f1ab0140d1c2d51de52214d0ee5"
+        },
+        "date": 1721286543000,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average fstat latency on Linux",
+            "unit": "ms",
+            "value": "0.4863",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average fstat latency on Asterinas",
+            "unit": "ms",
+            "value": "0.8255",
+            "extra": "aster_avg"
+          }
+        ]        
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Qingsong Chen",
+            "username": "cqs21",
+            "email": "changxian.cqs@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "fbf2afd799671f1ab0140d1c2d51de52214d0ee5",
+          "message": " Add ioctl subcommand FIONBIO/FIOASYNC",
+          "timestamp": "2024-07-15T09:28:22Z",
+          "url": "https://github.com/sdww0/asterinas/commit/fbf2afd799671f1ab0140d1c2d51de52214d0ee5"
+        },
+        "date": 1721286543000,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average fstat latency on Linux",
+            "unit": "ms",
+            "value": "0.4863",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average fstat latency on Asterinas",
+            "unit": "ms",
+            "value": "0.8255",
+            "extra": "aster_avg"
+          }
+        ]        
+      }
+    ],
+    "lmbench-mem-fcp Benchmark": [
+      {
+        "commit": {
+          "author": {
+            "name": "Qingsong Chen",
+            "username": "cqs21",
+            "email": "changxian.cqs@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "fbf2afd799671f1ab0140d1c2d51de52214d0ee5",
+          "message": " Add ioctl subcommand FIONBIO/FIOASYNC",
+          "timestamp": "2024-07-15T09:28:22Z",
+          "url": "https://github.com/sdww0/asterinas/commit/fbf2afd799671f1ab0140d1c2d51de52214d0ee5"
+        },
+        "date": 1721286543000,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average memory copy bandwidth on Linux",
+            "unit": "MB/s",
+            "value": "6337.90",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average memory copy bandwidth on Asterinas",
+            "unit": "MB/s",
+            "value": "6323.87",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Qingsong Chen",
+            "username": "cqs21",
+            "email": "changxian.cqs@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "fbf2afd799671f1ab0140d1c2d51de52214d0ee5",
+          "message": " Add ioctl subcommand FIONBIO/FIOASYNC",
+          "timestamp": "2024-07-15T09:28:22Z",
+          "url": "https://github.com/sdww0/asterinas/commit/fbf2afd799671f1ab0140d1c2d51de52214d0ee5"
+        },
+        "date": 1721286543000,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average memory copy bandwidth on Linux",
+            "unit": "MB/s",
+            "value": "6337.90",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average memory copy bandwidth on Asterinas",
+            "unit": "MB/s",
+            "value": "6323.87",
+            "extra": "aster_avg"
+          }
+        ]
+      }
+    ],
+    "lmbench-mem-frd Benchmark": [
+      {
+        "commit": {
+          "author": {
+            "name": "Qingsong Chen",
+            "username": "cqs21",
+            "email": "changxian.cqs@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "fbf2afd799671f1ab0140d1c2d51de52214d0ee5",
+          "message": " Add ioctl subcommand FIONBIO/FIOASYNC",
+          "timestamp": "2024-07-15T09:28:22Z",
+          "url": "https://github.com/sdww0/asterinas/commit/fbf2afd799671f1ab0140d1c2d51de52214d0ee5"
+        },
+        "date": 1721286543000,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average memory read bandwidth on Linux",
+            "unit": "MB/s",
+            "value": "14923.86",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average memory read bandwidth on Asterinas",
+            "unit": "MB/s",
+            "value": "14889.92",
+            "extra": "aster_avg"
+          }
+        ]        
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Qingsong Chen",
+            "username": "cqs21",
+            "email": "changxian.cqs@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "fbf2afd799671f1ab0140d1c2d51de52214d0ee5",
+          "message": " Add ioctl subcommand FIONBIO/FIOASYNC",
+          "timestamp": "2024-07-15T09:28:22Z",
+          "url": "https://github.com/sdww0/asterinas/commit/fbf2afd799671f1ab0140d1c2d51de52214d0ee5"
+        },
+        "date": 1721286543000,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average memory read bandwidth on Linux",
+            "unit": "MB/s",
+            "value": "14923.86",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average memory read bandwidth on Asterinas",
+            "unit": "MB/s",
+            "value": "14889.92",
+            "extra": "aster_avg"
+          }
+        ]        
+      }
+    ],
+    "lmbench-mem-fwr Benchmark": [
+      {
+        "commit": {
+          "author": {
+            "name": "Qingsong Chen",
+            "username": "cqs21",
+            "email": "changxian.cqs@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "fbf2afd799671f1ab0140d1c2d51de52214d0ee5",
+          "message": " Add ioctl subcommand FIONBIO/FIOASYNC",
+          "timestamp": "2024-07-15T09:28:22Z",
+          "url": "https://github.com/sdww0/asterinas/commit/fbf2afd799671f1ab0140d1c2d51de52214d0ee5"
+        },
+        "date": 1721286543000,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average memory write bandwidth on Linux",
+            "unit": "MB/s",
+            "value": "10061.30",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average memory write bandwidth on Asterinas",
+            "unit": "MB/s",
+            "value": "9970.12",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Qingsong Chen",
+            "username": "cqs21",
+            "email": "changxian.cqs@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "fbf2afd799671f1ab0140d1c2d51de52214d0ee5",
+          "message": " Add ioctl subcommand FIONBIO/FIOASYNC",
+          "timestamp": "2024-07-15T09:28:22Z",
+          "url": "https://github.com/sdww0/asterinas/commit/fbf2afd799671f1ab0140d1c2d51de52214d0ee5"
+        },
+        "date": 1721286543000,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average memory write bandwidth on Linux",
+            "unit": "MB/s",
+            "value": "10061.30",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average memory write bandwidth on Asterinas",
+            "unit": "MB/s",
+            "value": "9970.12",
+            "extra": "aster_avg"
+          }
+        ]
+      }
+    ],
+    "lmbench-open Benchmark": [
+      {
+        "commit": {
+          "author": {
+            "name": "Qingsong Chen",
+            "username": "cqs21",
+            "email": "changxian.cqs@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "fbf2afd799671f1ab0140d1c2d51de52214d0ee5",
+          "message": " Add ioctl subcommand FIONBIO/FIOASYNC",
+          "timestamp": "2024-07-15T09:28:22Z",
+          "url": "https://github.com/sdww0/asterinas/commit/fbf2afd799671f1ab0140d1c2d51de52214d0ee5"
+        },
+        "date": 1721286543000,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average open latency on Linux",
+            "unit": "ms",
+            "value": "1.0667",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average open latency on Asterinas",
+            "unit": "ms",
+            "value": "2.2350",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Qingsong Chen",
+            "username": "cqs21",
+            "email": "changxian.cqs@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "fbf2afd799671f1ab0140d1c2d51de52214d0ee5",
+          "message": " Add ioctl subcommand FIONBIO/FIOASYNC",
+          "timestamp": "2024-07-15T09:28:22Z",
+          "url": "https://github.com/sdww0/asterinas/commit/fbf2afd799671f1ab0140d1c2d51de52214d0ee5"
+        },
+        "date": 1721286543000,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average open latency on Linux",
+            "unit": "ms",
+            "value": "1.0667",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average open latency on Asterinas",
+            "unit": "ms",
+            "value": "2.2350",
+            "extra": "aster_avg"
+          }
+        ]
+      }
+    ],
+    "lmbench-shell Benchmark": [
+      {
+        "commit": {
+          "author": {
+            "name": "Qingsong Chen",
+            "username": "cqs21",
+            "email": "changxian.cqs@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "fbf2afd799671f1ab0140d1c2d51de52214d0ee5",
+          "message": " Add ioctl subcommand FIONBIO/FIOASYNC",
+          "timestamp": "2024-07-15T09:28:22Z",
+          "url": "https://github.com/sdww0/asterinas/commit/fbf2afd799671f1ab0140d1c2d51de52214d0ee5"
+        },
+        "date": 1721286543000,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average shell latency on Linux",
+            "unit": "ms",
+            "value": "417.0833",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average shell latency on Asterinas",
+            "unit": "ms",
+            "value": "727.6250",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Qingsong Chen",
+            "username": "cqs21",
+            "email": "changxian.cqs@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "fbf2afd799671f1ab0140d1c2d51de52214d0ee5",
+          "message": " Add ioctl subcommand FIONBIO/FIOASYNC",
+          "timestamp": "2024-07-15T09:28:22Z",
+          "url": "https://github.com/sdww0/asterinas/commit/fbf2afd799671f1ab0140d1c2d51de52214d0ee5"
+        },
+        "date": 1721286543000,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average shell latency on Linux",
+            "unit": "ms",
+            "value": "417.0833",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average shell latency on Asterinas",
+            "unit": "ms",
+            "value": "727.6250",
+            "extra": "aster_avg"
+          }
+        ]
+      }
+    ],
+    "lmbench-stat Benchmark": [
+      {
+        "commit": {
+          "author": {
+            "name": "Qingsong Chen",
+            "username": "cqs21",
+            "email": "changxian.cqs@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "fbf2afd799671f1ab0140d1c2d51de52214d0ee5",
+          "message": " Add ioctl subcommand FIONBIO/FIOASYNC",
+          "timestamp": "2024-07-15T09:28:22Z",
+          "url": "https://github.com/sdww0/asterinas/commit/fbf2afd799671f1ab0140d1c2d51de52214d0ee5"
+        },
+        "date": 1721286543000,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average stat latency on Linux",
+            "unit": "ms",
+            "value": "0.5426",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average stat latency on Asterinas",
+            "unit": "ms",
+            "value": "1.7144",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Qingsong Chen",
+            "username": "cqs21",
+            "email": "changxian.cqs@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "fbf2afd799671f1ab0140d1c2d51de52214d0ee5",
+          "message": " Add ioctl subcommand FIONBIO/FIOASYNC",
+          "timestamp": "2024-07-15T09:28:22Z",
+          "url": "https://github.com/sdww0/asterinas/commit/fbf2afd799671f1ab0140d1c2d51de52214d0ee5"
+        },
+        "date": 1721286543000,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average stat latency on Linux",
+            "unit": "ms",
+            "value": "0.5426",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average stat latency on Asterinas",
+            "unit": "ms",
+            "value": "1.7144",
+            "extra": "aster_avg"
+          }
+        ]
+      }
+    ],
+    "lmbench-unix-latency Benchmark": [
+      {
+        "commit": {
+          "author": {
+            "name": "Qingsong Chen",
+            "username": "cqs21",
+            "email": "changxian.cqs@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "fbf2afd799671f1ab0140d1c2d51de52214d0ee5",
+          "message": " Add ioctl subcommand FIONBIO/FIOASYNC",
+          "timestamp": "2024-07-15T09:28:22Z",
+          "url": "https://github.com/sdww0/asterinas/commit/fbf2afd799671f1ab0140d1c2d51de52214d0ee5"
+        },
+        "date": 1721286543000,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average unix latency on Linux",
+            "unit": "ms",
+            "value": "4.1184",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average unix latency on Asterinas",
+            "unit": "ms",
+            "value": "5.2844",
+            "extra": "aster_avg"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Qingsong Chen",
+            "username": "cqs21",
+            "email": "changxian.cqs@antgroup.com"
+          },
+          "committer": {
+            "name": "Tate, Hongliang Tian",
+            "username": "tatetian",
+            "email": "tatetian@gmail.com"
+          },
+          "id": "fbf2afd799671f1ab0140d1c2d51de52214d0ee5",
+          "message": " Add ioctl subcommand FIONBIO/FIOASYNC",
+          "timestamp": "2024-07-15T09:28:22Z",
+          "url": "https://github.com/sdww0/asterinas/commit/fbf2afd799671f1ab0140d1c2d51de52214d0ee5"
+        },
+        "date": 1721286543000,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Average unix latency on Linux",
+            "unit": "ms",
+            "value": "4.1184",
+            "extra": "linux_avg"
+          },
+          {
+            "name": "Average unix latency on Asterinas",
+            "unit": "ms",
+            "value": "5.2844",
+            "extra": "aster_avg"
+          }
+        ]
+      }
+    ],
     "lmbench-fork Benchmark": [
       {
         "commit": {
